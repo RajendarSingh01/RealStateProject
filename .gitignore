@@ -1,24 +1,42 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Dependency directories
+node_modules/
+dist/
+dist-ssr/
+logs/
+*.local/
 
-node_modules
-dist
-dist-ssr
-*.local
+# Optional build output
+build/
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+.vscode/
+.idea/
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+
+# Node.js environment variables
+.env
+# Dependency directories
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Optional eslint cache
+.eslintcache
+
+# Optional IDE files
+.vscode/
+.idea/
+
+# Optional OS-generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables file
+.env
+
+# Optional build output
+/build/
+
+# Logs
+*.log
